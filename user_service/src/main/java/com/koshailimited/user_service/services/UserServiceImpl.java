@@ -1,9 +1,11 @@
 package com.koshailimited.user_service.services;
 
 import com.koshailimited.user_service.entity.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UserServiceImpl implements UserService{
 
     List<User> list = List.of(
